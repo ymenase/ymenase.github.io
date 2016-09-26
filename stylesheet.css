@@ -6,9 +6,9 @@ body {
 #header {
 	text-align: center;
 	font-family; Tahoma, Geneva, sans-serif;
-	font-size: 20px;
+	font-size: 55px;
 	background-color: #fadad7;
-	height: 100px;
+	height: 90px;
 }
 #content {
 	font-family; Tahoma, Geneva, sans-serif;
@@ -33,7 +33,7 @@ ul {
 	font-size: 14px;
 }
 
-#codedemo {
+.codedemo {
 	font-family: Courier, serif;
 	font-size: 12px;
 	font color: blue;
