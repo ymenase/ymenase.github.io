@@ -1,0 +1,28 @@
+body {
+	background-color: #ff8000;
+
+}
+div {
+	font-family; Verdana, sans-serif;
+	font color: black;
+}
+
+h1 {
+	font-family: Verdana, sans-serif;
+	font color: black;
+	font-size: 16px;
+}
+
+p {
+	font-family: Verdana, sans-serif;
+	font color: black;
+	font-size: 12px;
+}
+
+
+#codedemo {
+	font-family: Courier, serif;
+	font-size: 12px;
+	font color: blue;
+}
+	
