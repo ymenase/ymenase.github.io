@@ -1,8 +1,14 @@
 body {
 	background-color: #faebd7;
-
+	font-family; Tahoma, Geneva, sans-serif;
 }
 
+#header {
+	text-align: center;
+	font-family; Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	background-color: #fadad7;
+}
 #content {
 	font-family; Tahoma, Geneva, sans-serif;
 	font color: black;
