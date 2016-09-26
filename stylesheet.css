@@ -1,6 +1,7 @@
 body {
 	background-color: #faebd7;
 	font-family; Tahoma, Geneva, sans-serif;
+    padding:1em 2em;
 }
 
 #header {
@@ -33,9 +34,15 @@ ul {
 	font-size: 14px;
 }
 
-.codedemo {
-	font-family: Courier, serif;
+pre {
+    display: inline-block;
+    padding: 1em;
+    margin-left: 3em;
 	font-size: 12px;
-	font color: black;
+	color: blue;
+    background: white;
 }
-	
+
+code {
+    margin: 0.2em;
+}
