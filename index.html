@@ -8,32 +8,33 @@
     <div id="wrapper">
         <div>
             <h1 id="header">Yvette's Blog</h1>
-        </div>
         <div id="content">
             <h1>What is the difference between <code>switch</code> and
             <code>if/else</code>? When would you use one versus the other?</h1>
             <p>A switch statement is a way of comparing values. It is indicated
-            by <em>switch() case [value]:</em>. No variables can be declared
-            within a switch statement. By doing this, the computer compares the
-            value of the case compared to the other items in a list. Switch is
-            used when you have a finite list of correct answers, like months.
-            If you have an input that's a month you write a switch and each
-            month would be a case. "If/else" is a more commonly used comparison
-            method for more open-ended cases. The "if" statement defines the
-            condition using a Boolean statement and indicates what the program
-            should do if those have been met. If those have not been met
-            exactly, the "else" statement and action will run. "Else" can only
-            be used immediately after an "if statement."</p>
+            by <code>switch() case [value]:</code>. No variables can be
+            declared within a switch statement. By doing this, the computer
+            compares the value of the case compared to the other items in a
+            list. Switch is used when you have a finite list of correct
+            answers, like months. If you have an input that's a month you write
+            a switch and each month would be a case. "If/else" is a more
+            commonly used comparison method for more open-ended cases. The "if"
+            statement defines the condition using a Boolean statement and
+            indicates what the program should do if those have been met. If
+            those have not been met exactly, the "else" statement and action
+            will run. <code>Else</code> can only be used immediately after an
+            <code>if</code> statement.</p>
             <h1>What is "void" in a method declaration? How does this differ
             from declaring a method with a return type?</h1>
-            <p>A method must be called in order to be used -- "void" means no
-            value will be returned, and a statement means a value will be
-            returned. The syntax of a method is:</p>
+            <p>A method must be called in order to be used -- <code>void</code>
+            means no value will be returned, and a statement means a value will
+            be returned. The syntax of a method is:</p>
             <pre>
 public static int methodName(int a, int b) {
     // body
 }
-            </pre>
+            	</pre>
+            </div>
         </div>
     </div>
     <ul>
@@ -43,7 +44,7 @@ public static int methodName(int a, int b) {
         <li>a, b = formal parameters</li>
         <li>int a, int b = list of parameters</li>
     </ul>
-    <p>"Void" means that any type can be declared, such as int, String,
+    <p>"Void" means that any data type can be declared, such as int, String,
     boolean, or double. If parameters are declared, it means the program needs
     that information to produce the desired output. Parameters can be passed to
     a void method. The difference is that a void method can do an operation on
@@ -52,25 +53,38 @@ public static int methodName(int a, int b) {
     <h1>What happens when you include <code>import java.util.Scanner;</code> in
     your code? Where does this functionality come from? What is the "java" in
     <code>java.util.Scanner;</code>?</h1>
-    <p>"import java.util.Scanner" means that we are importing the input library
-    "Scanner". The functionality comes from creating and defining the scanner
-    object, which has been "keyboard" because it is the method by which the
-    human is transferring the answer into the computer's digital library. When
-    you instantiate a Scanner you get access to all its methods, which include
-    reading a file or harvesting user input. The import turns into a String.
-    "Java" in the statement "import java.util.Scanner" is part of the naming
-    convention and indicates that it is part of Java.</p>
+    <p><code>import java.util.Scanner</code> means that we are importing the
+    input library "Scanner". The functionality comes from creating and defining
+    the scanner object, which has been "keyboard" because it is the method by
+    which the human is transferring the answer into the computer's digital
+    library. When you instantiate a Scanner you get access to all its methods,
+    which include reading a file or harvesting user input. The import turns
+    into a String. "Java" in the statement <code>import
+    java.util.Scanner</code> is part of the naming convention and indicates
+    that it is part of Java.</p>
     <h1>What does it mean to "cast a double to an int"? Give an example of when
     you would do this and explain what is happening.</h1>
     <p>Casting a double to an int means changing the value type from a decimal
     to an integer. Math.random() defaults to a double between 0.0 and 0.999...
     The text that goes before the class ("Math") is the type, so you would type
-    "int" to cast the value as an int, i.e., <em>(int)Math.random();</em>
+    "int" to cast the value as an int, i.e., <code>(int)Math.random();</code>
     Relatedly, you can adjust the range of numbers received by adding 4* to the
-    range: for example <i>(int)(4*Math.random());</i> would create a range of
-    0-3.</p>
+    range: for example <code>(int)(4*Math.random());</code> would create a
+    range of 0-3.</p>
     <h1>When would you use "=" vs "==" vs ".equals"? Explain what each of these
     does and in which cases you should use them.</h1>
-    <p>Answer to q5</p>
+    <p><code>=</code> is the assignment operator. This operator is used to
+    assign a value to a variable. For example, <code>double number =
+    2.7</code>. Meanwhile, <code>==</code> is a boolean operator, indicating
+    that both objects refer to the same memory location. The operator assigns
+    equality. The information on either side can be assessed as either true or
+    false; for example, <code>20 == 10</code> is false.</p>
+    <p><code>.()equals</code></p>
+    <p>compares objects in strings. I.e.: <code>Pet myDog = new
+    Pet("Terrier")</code></p>
+    <p><code>if (myDog.equals(Terrier))</code></p>
+    <p><code>println("That's my dog!");</code></p>
+    <p></p>
+    <div></div><h2 id="footer">Last Updated: September 25, 2016</h2>
 </body>
 </html>
