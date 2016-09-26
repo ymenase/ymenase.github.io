@@ -1,24 +1,30 @@
 body {
-	background-color: #ff8000;
+	background-color: #faebd7;
 
 }
-div {
-	font-family; Verdana, sans-serif;
+
+#content {
+	font-family; Tahoma, Geneva, sans-serif;
 	font color: black;
 }
 
 h1 {
-	font-family: Verdana, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font color: black;
 	font-size: 16px;
 }
 
 p {
-	font-family: Verdana, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font color: black;
-	font-size: 12px;
+	font-size: 14px;
 }
 
+ul {
+	font-family: Tahoma, Geneva, sans-serif;
+	font color: black;
+	font-size: 14px;
+}
 
 #codedemo {
 	font-family: Courier, serif;
